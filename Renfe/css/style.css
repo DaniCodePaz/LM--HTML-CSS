@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.position-relative {
+    position: relative;
+}
+
+header {
+    background: linear-gradient(to right, #cb464f, #344f7c);
+}
+
+.nav-1 ul {
+    list-style-type: none;
+}
+
+.nav-1 li {
+    display: inline;
+}
+
+.nav-1 a {
+    text-decoration: none;
+    color: white;
+    padding-right: 15px;
+}
+
+.nav-1 a:hover {
+    text-decoration: underline;
+}
+
+i {
+    color: white;
+}
